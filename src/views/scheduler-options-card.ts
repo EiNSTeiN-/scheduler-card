@@ -212,8 +212,7 @@ export class SchedulerOptionsCard extends LitElement {
                     </mwc-button>
                   </div>
                   <div class="track-conditions">
-                    ${this.schedule.timeslots[0].stop &&
-                    this.schedule.timeslots[0].conditions &&
+                    ${this.schedule.timeslots[0].conditions &&
                     this.schedule.timeslots[0].conditions.length > 0
                       ? html`
                           <ha-checkbox
